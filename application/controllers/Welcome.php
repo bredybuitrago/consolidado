@@ -40,10 +40,13 @@ class Welcome extends CI_Controller {
 			'password' => $this->input->post('password'),
 		);
 		$res = $this->Dao_login_model->loginUser($datos);
+		$user = $this->Dao_login_model->getUserByUsername($this->input->post('user'));
 
 		if ($res) {
 			$data = array(
-	          'name' => $this->input->post('user')         
+	          'name' => $this->input->post('user'),
+	          'nombre' => $user->name . " " . $user->lastname,        
+	          'email' => $user->email       
         	);
 
         	$this->session->set_userdata($data);

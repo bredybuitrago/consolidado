@@ -15,3 +15,20 @@
 /*insertar columna day en tabla reservas*/
 ALTER TABLE `consolidado`.`reservas` 
 ADD COLUMN `day` VARCHAR(20) NOT NULL AFTER `cant`;
+
+/*ampliar columna de email*/
+ALTER TABLE `consolidado`.`user` 
+CHANGE COLUMN `email` `email` VARCHAR(50) NULL DEFAULT NULL ;
+
+/*CREAR TABLA PEDIDOS*/
+CREATE TABLE `consolidado`.`pedidos` (
+  `id_pedidos` INT NOT NULL AUTO_INCREMENT,
+  `user` VARCHAR(45) NOT NULL,
+  `a_nombre` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `direccion` VARCHAR(45) NOT NULL,
+  `contacto` VARCHAR(45) NOT NULL,
+  `costo` VARCHAR(45) NOT NULL,
+  `estimado` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_pedidos`),
+  UNIQUE INDEX `id_pedidos_UNIQUE` (`id_pedidos` ASC));

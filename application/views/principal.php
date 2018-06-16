@@ -79,32 +79,32 @@ http://www.tooplate.com/view/2076-zentro
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
 				<a href="<?= base_url(); ?>temp/images/gallery-img1.jpg" data-lightbox-gallery="zenda-gallery"><img src="<?= base_url(); ?>temp/images/gallery-img1.jpg" alt="gallery img"></a>
 				<div>
-					<h3>Lemon-Rosemary Prawn</h3>
-					<span>Seafood / Shrimp / Lemon</span>
+					<h3>Gamba de limón y romero</h3>
+					<span>Mariscos / Camarón / Limón</span>
 				</div>
 				<a href="<?= base_url(); ?>i<?= base_url(); ?>.jpg" alt="gallery img"></a>
 				<div>
-					<h3>Lemon-Rosemary Vegetables</h3>
-					<span>Tomato / Rosemary / Lemon</span>
+					<h3>Limón - Verduras de Romero</h3>
+					<span>Tomate / Romero / Limón</span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 				<a href="<?= base_url(); ?>temp/images/gallery-img3.jpg" data-lightbox-gallery="zenda-gallery"><img src="<?= base_url(); ?>temp/images/gallery-img3.jpg" alt="gallery img"></a>
 				<div>
-					<h3>Lemon-Rosemary Bakery</h3>
-					<span>Bread / Rosemary / Orange</span>
+					<h3>Limón - Rosemary Bakery</h3>
+					<span>Pan / Romero / Naranja</span>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
 				<a href="<?= base_url(); ?>temp/images/gallery-img4.jpg" data-lightbox-gallery="zenda-gallery"><img src="<?= base_url(); ?>temp/images/gallery-img4.jpg" alt="gallery img"></a>
 				<div>
-					<h3>Lemon-Rosemary Salad</h3>
-					<span>Chicken / Rosemary / Green</span>
+					<h3>Ensalada de limón y romero</h3>
+					<span>Pollo / Romero / Verde</span>
 				</div>
 				<a href="<?= base_url(); ?>temp/images/gallery-img5.jpg" data-lightbox-gallery="zenda-gallery"><img src="<?= base_url(); ?>temp/images/gallery-img5.jpg" alt="gallery img"></a>
 				<div>
-					<h3>Lemon-Rosemary Pizza</h3>
-					<span>Pasta / Rosemary / Green</span>
+					<h3>Limón - Romero Pizza</h3>
+					<span>Pasta / Romero / Verde</span>
 				</div>
 			</div>
 		</div>
@@ -162,23 +162,23 @@ http://www.tooplate.com/view/2076-zentro
 	<div class="container">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-				<h1 class="heading">Meet Zentro chefs</h1>
+				<h1 class="heading">Chefs del Consolidado Paisa</h1>
 				<hr>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
 				<img src="<?= base_url(); ?>temp/images/team1.jpg" class="img-responsive center-block" alt="team img">
-				<h4>Thanya</h4>
-				<h3>Main Chef</h3>
+				<h4>Paola</h4>
+				<h3>Chef menú principal</h3>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
 				<img src="<?= base_url(); ?>temp/images/team2.jpg" class="img-responsive center-block" alt="team img">
-				<h4>Lynda</h4>
-				<h3>Pizza Specialist</h3>
+				<h4>Linda</h4>
+				<h3>Especialista en Pizza</h3>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
 				<img src="<?= base_url(); ?>temp/images/team3.jpg" class="img-responsive center-block" alt="team img">
 				<h4>Jenny Ko</h4>
-				<h3>New Baker</h3>
+				<h3>Comida Extrangera</h3>
 			</div>
 		</div>
 	</div>
@@ -190,22 +190,22 @@ http://www.tooplate.com/view/2076-zentro
 	<div class="container">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10 col-sm-12 text-center">
-				<h1 class="heading">Contact Us</h1>
+				<h1 class="heading">Contactanos</h1>
 				<hr>
 			</div>
 			<div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
 				<form action="#" method="post">
 					<div class="col-md-6 col-sm-6">
-						<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+						<input name="name" type="text" class="form-control" id="name" placeholder="Nombre">
 				  </div>
 					<div class="col-md-6 col-sm-6">
 						<input name="email" type="email" class="form-control" id="email" placeholder="Email">
 				  </div>
 					<div class="col-md-12 col-sm-12">
-						<textarea name="message" rows="8" class="form-control" id="message" placeholder="Message"></textarea>
+						<textarea name="message" rows="8" class="form-control" id="message" placeholder="Mensaje"></textarea>
 					</div>
 					<div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-						<input name="submit" type="submit" class="form-control" id="submit" value="make a reservation">
+						<input name="submit" type="submit" class="form-control" id="submit" value="Evalua Nuestro Servivio">
 					</div>
 				</form>
 			</div>
@@ -220,24 +220,24 @@ http://www.tooplate.com/view/2076-zentro
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<h2 class="heading">Contact Info.</h2>
+				<h2 class="heading">Informacion de Contacto</h2>
 				<div class="ph">
-					<p><i class="fa fa-phone"></i> Phone</p>
-					<h4>090-080-0760</h4>
+					<p><i class="fa fa-phone"></i> Telefono</p>
+					<h4>9263758</h4>
 				</div>
 				<div class="address">
-					<p><i class="fa fa-map-marker"></i> Our Location</p>
-					<h4>120 Duis aute irure, California, USA</h4>
+					<p><i class="fa fa-map-marker"></i> Nuestra Localización</p>
+					<h4>Calle 98 14 54, Bogotá Chicó</h4>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<h2 class="heading">Open Hours</h2>
-					<p>Sunday <span>10:30 AM - 10:00 PM</span></p>
-					<p>Mon-Fri <span>9:00 AM - 8:00 PM</span></p>
-					<p>Saturday <span>11:30 AM - 10:00 PM</span></p>
+				<h2 class="heading">Horarios</h2>
+					<p>Domingos <span>10:30 AM - 10:00 PM</span></p>
+					<p>Lun-Vier <span>9:00 AM - 8:00 PM</span></p>
+					<p>Sabados <span>11:30 AM - 10:00 PM</span></p>
 			</div>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<h2 class="heading">Follow Us</h2>
+				<h2 class="heading">Siguenos</h2>
 				<ul class="social-icon">
 					<li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
 					<li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
@@ -256,10 +256,10 @@ http://www.tooplate.com/view/2076-zentro
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h3>ZENTRO</h3>
-				<p>Copyright © Zentro Restaurant and Cafe 
+				<h3>CONSOLIDADO PAISA</h3>
+				<p>Copyright © Consolidado Paisa Restaurante & Bar 
                 
-                | Design: <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
+                | Diseño: <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Robinson Marin</a></p>
 			</div>
 		</div>
 	</div>
