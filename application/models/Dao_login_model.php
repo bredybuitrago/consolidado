@@ -35,6 +35,12 @@ class Dao_login_model extends CI_Model
 			return false;
 		}
 	}
+
+	//
+	public function getUserByUsername($username){
+		$query = $this->db->get_where('user', array('username' => $username));
+		return $query->row();
+	}
 	
 	
 }

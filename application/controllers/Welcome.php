@@ -12,7 +12,10 @@ class Welcome extends CI_Controller {
 	 }
 
 	public function index()
-	{
+	{	
+		if ($this->session->userdata('name')) {
+	      $this->session->sess_destroy();
+	    }
 		$this->load->view('login');
 	}
 
@@ -39,6 +42,13 @@ class Welcome extends CI_Controller {
 		$res = $this->Dao_login_model->loginUser($datos);
 
 		if ($res) {
+			$data = array(
+	          'name' => $this->input->post('user')         
+        	);
+
+        	$this->session->set_userdata($data);
+
+
 			$this->load->view('principal');
 		} else {
 			$data['msj'] = 'incorrect';
@@ -46,6 +56,14 @@ class Welcome extends CI_Controller {
 		}
 
 	}
+
+	//
+	public function principales(){
+		$this->load->view('principal');
+		
+	}
+
+	
 
 
 }

@@ -56,7 +56,7 @@
 						<input id="r_pass" type="password" name="r_pass" class="input" data-type="password" required>
 					</div>
 					<div class="group">
-						<label for="r_pass_r" class="label">Repetir Contraseña</label>
+						<label for="r_pass_r" class="label">Repetir Password</label>
 						<input id="r_pass_r" type="password" class="input" name="r_pass_r" data-type="password" required>
 					</div>
 					<div class="group">
